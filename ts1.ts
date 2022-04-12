@@ -33,7 +33,7 @@ interface Icompany {
   bs: string;
 }
 
-const profile: Iprofile[] = [{
+const profile: Iprofile = {
   id: 1,
   name: "Leanne Graham",
   username: "Bret",
@@ -55,4 +55,7 @@ const profile: Iprofile[] = [{
     catchPhrase: "Multi-layered client-server neural-net",
     bs: "harness real-time e-markets",
   },
-}];
+};
+
+
+
